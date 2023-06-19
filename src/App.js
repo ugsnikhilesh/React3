@@ -3,7 +3,7 @@ import './App.css'
 import { useState } from 'react'
 
 const App = () => {
-  const [colors, setColors] = useState(["Violet", "Indigo", "Blue", "Green", "Yellow", "Orange", "Red", "Default"]);
+  const [colors, setColors] = useState(["Red", "Blue", "Green", "Yellow", "Orange", "Default"]);
   const [isVisible, setVisibility] = useState(false);
   const [currColor, setCurrColor] = useState("grey")
 
